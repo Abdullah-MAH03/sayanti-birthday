@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A little birthday surprise, made just for Sayanti."
+    />
+    <meta property="og:title" content="Happy Birthday, Sayanti!" />
+    <meta
+      property="og:description"
+      content="A little birthday surprise, made just for Sayanti."
+    />
+    <meta name="theme-color" content="#fffaf4" />
+    <title>Happy Birthday, Sayanti!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="birthday-page">
+      <div class="birthday-confetti" aria-hidden="true"></div>
+
+      <header class="birthday-header">
+        <a class="birthday-wordmark" href="./" aria-label="Birthday page">
+          a little note <span aria-hidden="true">♡</span>
+        </a>
+        <span class="birthday-header-label">MADE WITH LOVE, FOR YOU</span>
+      </header>
+
+      <section class="birthday-hero" aria-labelledby="birthday-title">
+        <div class="birthday-copy">
+          <div class="birthday-eyebrow">
+            <span aria-hidden="true">✧</span>
+            <span>Today is all about you</span>
+          </div>
+
+          <h1 id="birthday-title" class="birthday-title">
+            Happy
+            <br />
+            <span>Birthday,</span>
+            <br />
+            Sayanti<span class="birthday-title-period">.</span>
+          </h1>
+
+          <p class="birthday-intro">
+            Here’s to another beautiful year of your life! I hope it’s filled
+            with happiness, good memories, lots of laughter, and plenty of
+            moments that make you smile. 🥳❤️
+          </p>
+
+          <p class="birthday-date">
+            <span aria-hidden="true">✦</span>
+            <span>10 October</span>
+            <span aria-hidden="true">✦</span>
+          </p>
+
+          <div class="birthday-actions">
+            <button
+              class="birthday-note-button"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="birthday-note"
+            >
+              <span>Click here Sayanti</span>
+              <span aria-hidden="true">♡</span>
+            </button>
+            <button
+              class="birthday-cake-button"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="birthday-cake"
+            >
+              <span>Cakes here</span>
+              <span aria-hidden="true">🎂</span>
+            </button>
+          </div>
+
+          <div class="birthday-signoff">
+            <span class="birthday-signoff-rule" aria-hidden="true"></span>
+            <span>Wishing you the loveliest day</span>
+          </div>
+        </div>
+
+        <div class="birthday-art" aria-label="A place for Sayanti’s photo">
+          <div
+            class="birthday-orbit birthday-orbit-one"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="birthday-orbit birthday-orbit-two"
+            aria-hidden="true"
+          ></div>
+          <span class="birthday-sparkle birthday-sparkle-one" aria-hidden="true"
+            >✦</span
+          >
+          <span class="birthday-sparkle birthday-sparkle-two" aria-hidden="true"
+            >✧</span
+          >
+          <div
+            class="birthday-balloon birthday-balloon-one"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="birthday-balloon birthday-balloon-two"
+            aria-hidden="true"
+          ></div>
+
+          <div class="birthday-photo-frame">
+            <img
+              class="birthday-photo"
+              src="./sayanti-photo.jpeg"
+              alt="Sayanti smiling in a colorful outfit beneath a leafy tree"
+            />
+            <span class="birthday-photo-heart" aria-hidden="true">♥</span>
+          </div>
+
+          <div class="birthday-photo-label">
+            <span aria-hidden="true">✿</span>
+            <span>the birthday girl</span>
+          </div>
+          <span class="birthday-art-caption" aria-hidden="true">
+            today, tomorrow &amp; always
+          </span>
+        </div>
+      </section>
+
+      <footer class="birthday-footer">
+        <span>MAKE A WISH, SAYANTI</span>
+        <span class="birthday-footer-heart" aria-hidden="true">♥</span>
+        <span>YOU DESERVE ALL THE MAGIC</span>
+      </footer>
+    </main>
+
+    <dialog
+      class="birthday-note-dialog"
+      id="birthday-note"
+      aria-labelledby="birthday-note-title"
+      aria-describedby="birthday-note-copy"
+    >
+      <button
+        class="birthday-note-close"
+        type="button"
+        aria-label="Close birthday note"
+      >
+        ×
+      </button>
+      <div class="birthday-note-icon" aria-hidden="true">♥</div>
+      <h2 class="birthday-note-title" id="birthday-note-title">
+        A little note for you
+      </h2>
+      <div class="birthday-note-copy" id="birthday-note-copy">
+        <p class="birthday-note-paragraph">
+          Happy Birthday Sister 🥳🎂! It’s crazy to think that it’s already been
+          four years since we became friends at university. What started as a
+          normal friendship slowly became something much more special. You’ve
+          always treated me like your own brother, and honestly, I feel the same
+          way about you. ❤️
+        </p>
+        <p class="birthday-note-paragraph">
+          I’m really grateful for all the memories, laughs, and conversations
+          we’ve shared. No matter what happens, always remember that your
+          brother is here whenever you need someone to talk to. 🤗
+        </p>
+        <p class="birthday-note-paragraph">
+          I hope this year brings you lots of happiness, success, and everything
+          you’re wishing for. Keep smiling, stay happy, and never change. ❤️
+        </p>
+        <p class="birthday-note-paragraph">
+          Happy Birthday, little sister! 🥳🎈
+        </p>
+      </div>
+      <p class="birthday-note-signoff">With love, <span>always</span></p>
+    </dialog>
+
+    <dialog
+      class="birthday-cake-dialog"
+      id="birthday-cake"
+      aria-labelledby="birthday-cake-title"
+    >
+      <div class="birthday-cake-heading">
+        <div>
+          <p class="birthday-cake-eyebrow">A little birthday surprise</p>
+          <h2 id="birthday-cake-title">Make a wish, Sayanti!</h2>
+        </div>
+        <button
+          class="birthday-cake-close"
+          type="button"
+          aria-label="Close cake animation"
+        >
+          ×
+        </button>
+      </div>
+      <iframe
+        class="birthday-cake-frame"
+        src="about:blank"
+        title="Animated birthday cake and floating balloons"
+      ></iframe>
+      <p class="birthday-cake-hint">
+        Tap the candle or pop a balloon to add a little extra birthday magic.
+      </p>
+    </dialog>
+  </body>
+</html>
